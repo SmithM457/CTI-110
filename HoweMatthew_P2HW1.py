@@ -1,0 +1,35 @@
+#Matthew Howe
+#3/5/24
+#P2HW1
+#Formatting and adding decimal places
+
+print("This program calculates and displays travel expenses")
+print("")
+budget = float(input("Enter Budget: "))
+print("")
+location = input("Enter your travel destination: ")
+print("")
+gas = float(input("How much do you think you will spend on gas? "))
+print("")
+hotel = float(input("Approximately, how much will you need for accomodation/hotel? "))
+print("")
+food = float(input("Lastly, how much do you need for food? "))
+print("")
+print("------------Travel Expenses------------")
+##print("Location: "+ str(location) + '.')
+##print("Initial Budget: ",budget)
+##print("")
+##print("Fuel: ",gas)
+##print("Accomodation: ",hotel)
+##print("Food: ",food)
+##print("")
+balance = budget - gas - hotel - food
+##print("Remaining Balance: ",balance)
+##budget = format(budget,'.2f')
+print("Location:".ljust(20) + str(location))
+print("Initial Budget:".ljust(20) + '$' + str(format(budget,'.2f')))
+print("Fuel:".ljust(20) + '$' + str(format(gas,'.2f')))
+print("Acomodation:".ljust(20) + '$' + str(format(hotel,'.2f')))
+print("Food:".ljust(20) + '$' + str(format(food,'.2f')))
+print('-'*20)
+print("Remaining Balance:".ljust(20) + '$' + str(format(balance,'.2f')))
