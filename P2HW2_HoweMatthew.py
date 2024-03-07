@@ -42,13 +42,13 @@ total = sum(my_list)
 ave = total/length
 
 
-print("Lowest Grade:".ljust(15) + str(format(lowest,'.1f')))
+print("Lowest Grade:".ljust(20) + str(format(lowest,'.1f')))
 
-print("Highest Grade:".ljust(15) + str(format(highest,'.1f')))
+print("Highest Grade:".ljust(20) + str(format(highest,'.1f')))
 
-print("Sum of Grades:".ljust(15) + str(format(total,'.1f')))
+print("Sum of Grades:".ljust(20) + str(format(total,'.1f')))
 
-print("Average:".ljust(15) + str(format(ave,'.2f')))
+print("Average:".ljust(20) + str(format(ave,'.2f')))
 
 ##Create list
 ##Input floats as input tabs to allow grade entry
